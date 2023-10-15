@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/abhithemachinegun/EasyAdvAutoFilter.git /EasyAdvAutoFilter
+  git clone https://github.com/Rokstar890/EasyAutoFilter.git /EasyAutoFilter
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /EasyAdvAutoFilter
+  git clone $UPSTREAM_REPO /EasyAutoFilter
 fi
 cd /spidyauto
 pip3 install -U -r requirements.txt
