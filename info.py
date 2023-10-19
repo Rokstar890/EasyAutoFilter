@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '23762978'))
 API_HASH = environ.get('API_HASH', 'eff30dac5504a8660e69bfe19f668571')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6325916844:AAFd0XPOpaC1kO8wnU9yIHhQ06HSrsV3z_Q")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6325916844:AAEQ8XTUudQt5z20-lZ7aJ-WQBL_1LilFTw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -60,7 +60,7 @@ MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cinemavilla0012')
 SPRT_CHNL = environ.get('SPRT_CHNL', '')
-CHNL_LNK = environ.get('CHNL_LNK', '')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+EimteloC3X5mODE1')
 TUTORIAL = environ.get('TUTORIAL', '')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', '')
